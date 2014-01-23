@@ -21,5 +21,11 @@
     }
   ],
   "readme": "## profanity\r\nRandomly replaces text with profanity.\r\n\r\n Written by Mr. Papercut (Mischa Rodermond) ([website](http://www.mrpapercut.com/)).\r\n\r\n## Install\r\nInstall with [npm](http://github.com/isaacs/npm):\r\n\r\n\tnpm install profanity\r\n\r\n## Usage\r\n`````javascript\r\n\t\"use strict\";\r\n\r\n\tvar profanity = require('profanity');\r\n\r\n\tvar str = \"You are a very kind person and your mother looks lovely.\";\r\n\r\n\tconsole.log(profanity.addProfanity(str));\r\n`````\r\n\r\n## Wordlist\r\nThe wordlist can be found and edited in ./lib/wordlist.json",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
 }

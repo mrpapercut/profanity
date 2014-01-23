@@ -19,5 +19,13 @@ Install with [npm](http://github.com/isaacs/npm):
     console.log(profanity.addProfanity(str));
 `````
 
+## Config
+`````javascript
+    {
+        "enabled": boolean, // turns profanity on/off
+        "level": int(1-10) // Profanity level. 1 is almost no profanity, 10 is full sergeant Hartman
+    }
+`````
+
 ## Wordlist
 The wordlist can be found and edited in ./lib/wordlist.json

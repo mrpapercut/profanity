@@ -10,13 +10,13 @@ Install with [npm](http://github.com/isaacs/npm):
 
 ## Usage
 `````javascript
-"use strict";
+    "use strict";
 
-var profanity = require('profanity');
+    var profanity = require('profanity');
 
-var str = "You are a very kind person and your mother looks lovely.";
+    var str = "You are a very kind person and your mother looks lovely.";
 
-console.log(profanity.addProfanity(str));
+    console.log(profanity.addProfanity(str));
 `````
 
 ## Wordlist
